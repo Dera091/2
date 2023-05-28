@@ -29,7 +29,8 @@ while(True):
         print(mnożenie(l1, l2))
     elif a == 4:
         if l2 == 0:
-            continue
             print("nie można dzielić przez zero")
+            continue
+            
         else:
             print(dzielenie(l1, l2))
