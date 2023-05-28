@@ -30,5 +30,6 @@ while(True):
     elif a == 4:
         if l2 == 0:
             continue
+            print("nie można dzielić przez zero")
         else:
             print(dzielenie(l1, l2))
