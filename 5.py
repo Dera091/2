@@ -28,4 +28,7 @@ while(True):
     elif a == 3:
         print(mnożenie(l1, l2))
     elif a == 4:
-        print(dzielenie(l1, l2))
+        if l2 == 0:
+            continue
+        else:
+            print(dzielenie(l1, l2))
