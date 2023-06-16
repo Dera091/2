@@ -13,11 +13,15 @@ else:
         while len(losowe) < c:
             imie1 = random.choices(imie)
             nazwisko1 = random.choices(nazwisko)
-            x = f"{imie1} {nazwisko1}"
+            x = f"{imie1} {nazwisko1}\n"
             losowe.add(x)
 
     
 
     for x in losowe:
         print(x)
+
+with open('kombinacja.txt', 'w', encoding='utf-8') as kombinacja:
+   for x in losowe:
+    kombinacja.write(x)
 
